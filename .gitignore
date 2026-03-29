@@ -2,7 +2,7 @@
 .console_history
 
 # kernel
-purpur-*.jar
+purpur.jar
 
 # need but not WIP
 banned-ips.json
@@ -24,3 +24,7 @@ plugins/.paper-remapped
 
 # worlds
 /world*
+
+server-venv/
+
+server.properties
