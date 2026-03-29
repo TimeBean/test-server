@@ -1,2 +1,26 @@
+# temp
 .console_history
+
+# kernel
 purpur-*.jar
+
+# need but not WIP
+banned-ips.json
+banned-players.json
+help.yml
+usercache.json
+version_history.json
+whitelist.json
+ops.json
+
+libraries/
+logs/
+versions/
+cache/
+
+plugins/spark/
+plugins/bStats/
+plugins/.paper-remapped
+
+# worlds
+/world*
