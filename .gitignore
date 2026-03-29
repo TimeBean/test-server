@@ -31,3 +31,10 @@ server-venv/
 /plugins/FastAsyncWorldEdit/clipboard/
 /plugins/FastAsyncWorldEdit/sessions/
 /plugins/FastAsyncWorldEdit/*~
+
+/plugins/FancyNpcs/logs/
+/plugins/FancyNpcs/*~
+
+/plugins/MultiWorld/language/
+/plugins/MultiWorld/user/
+/plugins/MultiWorld/*~
