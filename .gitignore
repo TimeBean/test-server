@@ -27,4 +27,5 @@ plugins/.paper-remapped
 
 server-venv/
 
-server.properties
+plugins/FastAsyncWorldEdit/clipboard/
+plugins/FastAsyncWorldEdit/history/
