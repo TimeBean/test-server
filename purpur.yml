@@ -10,6 +10,7 @@
 
 verbose: false
 settings:
+  generate-end-void-rings: false
   messages:
     cannot-ride-mob: <red>You cannot mount that mob
     afk-broadcast-away: <yellow><italic>%s is now AFK
@@ -189,7 +190,7 @@ settings:
       distance: 0.5
     minecraft:lime_bed:
       distance: 0.5
-config-version: 47
+config-version: 43
 world-settings:
   default:
     blocks:
@@ -1337,6 +1338,7 @@ world-settings:
         takes-damage-from-water: false
         always-drop-exp: false
       piglin:
+        mob-griefing-override: default
         ridable: false
         ridable-in-water: true
         controllable: true
@@ -1360,6 +1362,7 @@ world-settings:
         always-drop-exp: false
         can-pick-up-loot: default
       pillager:
+        mob-griefing-override: default
         ridable: false
         ridable-in-water: true
         controllable: true
@@ -1832,6 +1835,9 @@ world-settings:
       entity:
         shared-random: true
     gameplay-mechanics:
+      arrow:
+        movement-resets-despawn-counter: true
+      entities-pick-up-loot-mob-griefing-override: default
       use-better-mending: false
       always-tame-in-creative: false
       boat:
