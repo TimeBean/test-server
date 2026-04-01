@@ -1,7 +1,7 @@
 import subprocess
 
 JAVA = "java"
-JAR_FILE = "purpur-1.21.11-2566.jar"
+JAR_FILE = "purpur.jar"
 
 XMS = "4G"
 XMX = "32G"
