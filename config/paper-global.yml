@@ -13,7 +13,7 @@
 # Discord: https://discord.gg/papermc
 # Website: https://papermc.io/
 
-_version: 31
+_version: 30
 anticheat:
   obfuscation:
     items:
@@ -85,8 +85,6 @@ misc:
     chat-executor-max-size: -1
   client-interaction-leniency-distance: default
   compression-level: default
-  enable-nether: true
-  fix-far-end-terrain-generation: true
   load-permissions-yml-before-plugins: true
   max-joins-per-tick: 5
   prevent-negative-villager-demand: false
@@ -136,14 +134,10 @@ unsupported-settings:
   allow-piston-duplication: false
   allow-unsafe-end-portal-teleportation: false
   compression-format: ZLIB
-  oversized-item-component-sanitizer:
-    dont-sanitize: []
   perform-username-validation: true
   skip-tripwire-hook-placement-validation: false
   skip-vanilla-damage-tick-when-shield-blocked: false
   update-equipment-on-player-actions: true
-update-checker:
-  enabled: true
 watchdog:
   early-warning-delay: 10000
   early-warning-every: 5000
